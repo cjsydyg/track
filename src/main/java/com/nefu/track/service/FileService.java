@@ -1,0 +1,8 @@
+package com.nefu.track.service;
+
+import org.springframework.web.multipart.MultipartFile;
+
+public interface FileService {
+    //文件上传
+    int upload(MultipartFile file);
+}
